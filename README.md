@@ -17,7 +17,18 @@ I create a mircroservice in FastAPI, which could use sql to query fast food chai
 
 ## How to use
 Add parameters after the link: 
-category include:  category: burger, snack,chicken,sandwich,pizza,global
+category include:  category: burger, snack,chicken,sandwich,pizza,global. 
 * well-come page list all category that could search: welcome to the top 50 fast food in US dataset, lets's begin to using sql to query fast food chain company in US. (https://bepmpbmtbd.us-east-1.awsapprunner.com/)
 https://bepmpbmtbd.us-east-1.awsapprunner.com/{category}
 * select top 3 sellers in this category (burger). (https://bepmpbmtbd.us-east-1.awsapprunner.com/burger)
+  
+or play locally:  
+
+'''
+docker build -t ids-proj .
+docker run -p 8080:8080 -t -i ids-proj
+'''
+
+## Resources
+* https://todothinkofname.net/2021/07/11/Codespaces-with-AWS/
+* https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-image.html
