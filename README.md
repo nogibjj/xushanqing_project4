@@ -13,7 +13,7 @@ Continuous Delivery of Flask/FastAPI Data Engineering API on AWS
 * Push tested source code to Github and perform Continuous Integration with Github Actions (or similar SaaS Build service)
 
 ## Details
-I create a mircroservice in FastAPI, which could help us decide what to eat in Duke. I use Docker and deployed it on GCP.
+I create a mircroservice in FastAPI, which could use sql to query fast food chain company in US. I use Docker and deployed it on AWS app Runner.
 
 ## How to use
 Add parameters after the link: 
