@@ -10,7 +10,7 @@ async def root():
 
 @app.get("/{category}")
 async def query(category):
-    """Execute query from covid-19 cases dataset to search covid-19 cases data in US from 2020-1-21 to 2022-5-23!"""
+    """select top 3 sellers in this category (burger)"""
     print(category)
     result = top_seller(category)
     string = "Latest Result for {} is:  {}".format(category,result)

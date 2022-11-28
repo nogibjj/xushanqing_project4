@@ -49,7 +49,7 @@ def top_three_close_unit_companies():
         print(company)
 
 
-#query 3: select top 3 sells burger
+#query 3: select top 3 sellers in this category
 def top_seller(category):
     s = """SELECT company,category,sales_in_millions_2019
             FROM company Where category='{category}'
