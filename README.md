@@ -24,10 +24,10 @@ https://bepmpbmtbd.us-east-1.awsapprunner.com/{category}
   
 or play locally:  
 
-'''
+```
 docker build -t ids-proj .
 docker run -p 8080:8080 -t -i ids-proj
-'''
+```
 
 ## Resources
 * https://todothinkofname.net/2021/07/11/Codespaces-with-AWS/
