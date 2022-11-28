@@ -1,4 +1,4 @@
-name: Deploy to ECR
+name: CI/CD
 on: [push]
 jobs:
   build:
@@ -24,7 +24,6 @@ jobs:
     - name: Login to AMZ ECR
       id: login-ecr
       uses: aws-actions/amazon-ecr-login@v1
-    - name: Build, tag, and push image to Amazon ECR
     - name: Build, Tag, Push Container To ECR
       run: |
          make deploy
